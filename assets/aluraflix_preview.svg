@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340">
+  <rect width="600" height="340" rx="12" fill="#0f0f12"/>
+  <!-- Top Bar -->
+  <rect x="0" y="0" width="600" height="48" fill="#18181c"/>
+  <text x="24" y="30" font-family="'Roboto', sans-serif" font-size="18" font-weight="900" letter-spacing="1.5" fill="#ffffff">ALURAFLIX</text>
+  <rect x="490" y="13" width="86" height="22" rx="4" fill="none" stroke="#ffffff" stroke-width="1.2" opacity="0.6"/>
+  <text x="533" y="28" text-anchor="middle" font-family="'Roboto Mono', monospace" font-size="10" fill="#ffffff">+ VIDEO</text>
+  <!-- Hero Banner -->
+  <rect x="24" y="64" width="552" height="120" rx="8" fill="#1f1f26" stroke="#2e2e38" stroke-width="1"/>
+  <rect x="42" y="82" width="84" height="20" rx="4" fill="#ffffff"/>
+  <text x="84" y="96" text-anchor="middle" font-family="'Roboto Mono', monospace" font-size="10" font-weight="700" fill="#0f0f12">FRONTEND</text>
+  <text x="42" y="126" font-family="'Roboto', sans-serif" font-size="18" font-weight="700" fill="#ffffff">Repositorio Interactivo de Videos por Categorías</text>
+  <text x="42" y="148" font-family="'Roboto', sans-serif" font-size="12" fill="#a1a1aa">ReactJS · REST API · Oracle Next Education Challenge</text>
+  <circle cx="515" cy="124" r="26" fill="rgba(255,255,255,0.1)" stroke="#ffffff" stroke-width="1.5"/>
+  <polygon points="509,113 509,135 527,124" fill="#ffffff"/>
+  <!-- Video Grid Cards -->
+  <g transform="translate(24, 202)">
+    <rect x="0" y="0" width="172" height="108" rx="6" fill="#1c1c22" stroke="#3f3f46" stroke-width="1"/>
+    <polygon points="78,42 78,62 96,52" fill="#a1a1aa"/>
+    <text x="12" y="94" font-family="'Roboto Mono', monospace" font-size="10" fill="#d4d4d8">React &amp; Hooks</text>
+
+    <rect x="190" y="0" width="172" height="108" rx="6" fill="#1c1c22" stroke="#3f3f46" stroke-width="1"/>
+    <polygon points="268,42 268,62 286,52" fill="#a1a1aa"/>
+    <text x="202" y="94" font-family="'Roboto Mono', monospace" font-size="10" fill="#d4d4d8">Backend &amp; APIs</text>
+
+    <rect x="380" y="0" width="172" height="108" rx="6" fill="#1c1c22" stroke="#3f3f46" stroke-width="1"/>
+    <polygon points="458,42 458,62 476,52" fill="#a1a1aa"/>
+    <text x="392" y="94" font-family="'Roboto Mono', monospace" font-size="10" fill="#d4d4d8">Innovación &amp; Gestión</text>
+  </g>
+</svg>

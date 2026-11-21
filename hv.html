@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Hoja de Vida (HV) de Cristian Camilo Tabares Villanueva — Empleos (PRAGMA S.A.S, GTC, Innovate S.A.S) y Estudios (9.º Semestre Ingeniería en Sistemas CUN, Google, Oracle ONE, SENA)." />
+  <meta name="author" content="Cristian Camilo Tabares Villanueva" />
+  <title>Hoja de Vida (HV) · Cristian Camilo Tabares Villanueva</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Google Fonts: Roboto & Roboto Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- Main Stylesheet -->
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Top Navigation -->
+  <header class="site-header">
+    <div class="container-dev navbar-dev">
+      <a class="brand-dev" href="index.html">
+        <span class="brand-mark">CCTV</span>
+        <span class="brand-name">Cristian Camilo Tabares</span>
+      </a>
+
+      <ul class="nav-links-dev" data-nav-list>
+        <li><a href="index.html"><i class="bi bi-terminal"></i> Inicio</a></li>
+        <li><a class="active" href="resume.html"><i class="bi bi-file-earmark-person"></i> Hoja de Vida (HV)</a></li>
+        <li><a href="projects.html"><i class="bi bi-code-square"></i> Proyectos</a></li>
+        <li><a href="contact.html"><i class="bi bi-envelope"></i> Contacto</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button type="button" class="theme-toggle-btn" data-theme-toggle aria-label="Cambiar tema">
+          <i class="bi bi-circle-half"></i> <span>Auto</span>
+        </button>
+        <button type="button" class="mobile-menu-btn" data-mobile-toggle aria-label="Menú">
+          <i class="bi bi-list"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HV Header -->
+    <section class="hero-section" style="padding: 40px 0 32px;">
+      <div class="container-dev">
+        <div class="section-header-dev" style="margin-bottom: 16px;">
+          <div>
+            <div class="section-kicker">Curriculum Vitae &middot; Resumen Ejecutivo</div>
+            <h1 class="hero-title" style="font-size: clamp(1.8rem, 3.5vw, 2.4rem); margin-bottom: 6px;">Hoja de Vida (HV)</h1>
+            <p class="hero-bio" style="margin-bottom: 0;">
+              <strong>Cristian Camilo Tabares Villanueva</strong> &mdash; Desarrollador de Software Full Stack &amp; Mobile/Wear OS con +10 años de experiencia. Estudiante de 9.º semestre de Ingeniería en Sistemas (CUN) y actualmente vinculado a <strong>PRAGMA S.A.S</strong>.
+            </p>
+          </div>
+          <div class="hero-actions" style="margin-bottom: 0;">
+            <a class="btn-dev btn-dev-primary btn-dev-sm" href="https://1drv.ms/b/s!Aqe6iUZoCYlJgaxZl3pTn57XCSZ7gA?e=4d9zEa" target="_blank" rel="noopener">
+              <i class="bi bi-file-earmark-arrow-down"></i> Descargar HV (PDF)
+            </a>
+            <button type="button" class="btn-dev btn-dev-outline btn-dev-sm" onclick="window.print()">
+              <i class="bi bi-printer"></i> Imprimir HV
+            </button>
+          </div>
+        </div>
+
+        <!-- Filter Tabs: Divide HV into Empleos, Estudios, Skills & Soportes -->
+        <div class="filter-tabs" style="margin-bottom: 0; border-bottom: none; padding-bottom: 0;">
+          <button type="button" class="filter-tab active" data-filter-btn="all">
+            <i class="bi bi-layers"></i> Toda la HV
+          </button>
+          <button type="button" class="filter-tab" data-filter-btn="empleos">
+            <i class="bi bi-briefcase"></i> Empleos (Experiencia Laboral)
+          </button>
+          <button type="button" class="filter-tab" data-filter-btn="estudios">
+            <i class="bi bi-mortarboard"></i> Estudios y Certificaciones
+          </button>
+          <button type="button" class="filter-tab" data-filter-btn="skills">
+            <i class="bi bi-cpu"></i> Skills &amp; Tecnologías
+          </button>
+          <button type="button" class="filter-tab" data-filter-btn="documentos">
+            <i class="bi bi-folder-check"></i> Certificados y Soportes
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 1. EMPLEOS (EXPERIENCIA LABORAL) -->
+    <section id="empleos" class="section-dev" data-filter-section="empleos">
+      <div class="container-dev">
+        <div class="section-header-dev">
+          <div>
+            <div class="section-kicker">01 &middot; Trayectoria Laboral</div>
+            <h2 class="section-title"><i class="bi bi-briefcase me-2"></i>Empleos y Experiencia Profesional</h2>
+          </div>
+        </div>
+
+        <div class="hv-list">
+          <!-- Empleo 1: PRAGMA S.A.S -->
+          <article class="hv-card">
+            <div class="hv-media">
+              <div class="hv-logo-wrap dark-logo">
+                <img src="assets/logo_pragma.svg" alt="PRAGMA S.A.S" />
+              </div>
+              <div>
+                <span class="hv-period">Dic. 2025 – Actualidad</span>
+                <div class="hv-location">Colombia</div>
+              </div>
+            </div>
+            <div class="hv-body">
+              <div class="hv-header-row">
+                <h3 class="hv-role">Desarrollador de Software</h3>
+                <span class="tag-chip tag-chip-solid">ACTUAL</span>
+              </div>
+              <div class="hv-company">
+                PRAGMA S.A.S &middot; <a href="https://www.pragma.co" target="_blank" rel="noopener" class="mono">pragma.co ↗</a>
+              </div>
+              <p class="hv-desc">
+                Desarrollo e implementación de soluciones de software empresariales y productos digitales de alto rendimiento. Participación activa en células ágiles para la transformación digital, construcción de servicios Backend/Frontend escalables, aseguramiento de calidad técnica e integración en entornos cloud.
+              </p>
+              <div class="tag-list">
+                <span class="tag-chip">Java</span>
+                <span class="tag-chip">Spring Boot</span>
+                <span class="tag-chip">Angular / ReactJS</span>
+                <span class="tag-chip">Arquitectura Limpia</span>
+                <span class="tag-chip">Agilidad Empresarial</span>
+                <span class="tag-chip">Cloud &amp; CI/CD</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Empleo 2: GTC -->
+          <article class="hv-card">
+            <div class="hv-media">
+              <div class="hv-logo-wrap dark-logo">
+                <img src="assets/logo_gtc.svg" alt="GTC" />
+              </div>
+              <div>
+                <span class="hv-period">2023 – Nov. 2025</span>
+                <div class="hv-location">Bogotá, Colombia</div>
+              </div>
+            </div>
+            <div class="hv-body">
+              <div class="hv-header-row">
+                <h3 class="hv-role">Desarrollador de Software</h3>
+                <span class="tag-chip">FINALIZADO NOV. 2025</span>
+              </div>
+              <div class="hv-company">GTC</div>
+              <p class="hv-desc">
+                Ingeniería y mantenimiento evolutivo de aplicaciones de software corporativas. Diseño de APIs RESTful, desarrollo de componentes Frontend responsivos, administración y optimización de bases de datos relacionales, control de versiones con Git y despliegue en contenedores.
+              </p>
+              <div class="tag-list">
+                <span class="tag-chip">Java</span>
+                <span class="tag-chip">Spring Boot</span>
+                <span class="tag-chip">JavaScript / TypeScript</span>
+                <span class="tag-chip">Angular / React</span>
+                <span class="tag-chip">SQL / MySQL</span>
+                <span class="tag-chip">Docker</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Empleo 3: Innovate Social Consultants S.A -->
+          <article class="hv-card">
+            <div class="hv-media">
+              <div class="hv-logo-wrap">
+                <img src="assets/logo_innovate.png" alt="Innovate Social Consultants S.A." />
+              </div>
+              <div>
+                <span class="hv-period">2013 – 2023 (10 años)</span>
+                <div class="hv-location">Bogotá, Colombia</div>
+              </div>
+            </div>
+            <div class="hv-body">
+              <div class="hv-header-row">
+                <h3 class="hv-role">Desarrollador Full Stack &amp; Líder de Infraestructura TI</h3>
+                <span class="tag-chip">2013 – 2023</span>
+              </div>
+              <div class="hv-company">
+                Innovate Social Consultants S.A. &middot; <a href="https://grupoinnovate.co" target="_blank" rel="noopener" class="mono">grupoinnovate.co ↗</a>
+              </div>
+              <p class="hv-desc">
+                Lideré el diseño y desarrollo de las plataformas comerciales <strong>Innofort</strong> e <strong>Innofort Plus</strong> (Índice de Fortalecimiento Organizacional) utilizando Java, Spring Boot, Angular, Java Swing, MySQL y SQLite, junto con reportería analítica (JasperReports, Birt, Power BI y Qlik BI). Dirigí el mantenimiento preventivo/correctivo y copias de seguridad de servidores Linux, administración web/seguridad en cPanel y soporte especializado remoto y presencial.
+              </p>
+              <div class="tag-list">
+                <span class="tag-chip">Java</span>
+                <span class="tag-chip">Spring Boot</span>
+                <span class="tag-chip">Angular</span>
+                <span class="tag-chip">Java Swing</span>
+                <span class="tag-chip">MySQL / SQLite</span>
+                <span class="tag-chip">Linux Servers / cPanel</span>
+                <span class="tag-chip">Power BI / JasperReports</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Empleo 4: TowerTech Americas S.A -->
+          <article class="hv-card">
+            <div class="hv-media">
+              <div class="hv-logo-wrap" style="background-color: #18181b;">
+                <img src="assets/logo_towertech.webp" alt="TowerTech Americas S.A." />
+              </div>
+              <div>
+                <span class="hv-period">2011 – 2013</span>
+                <div class="hv-location">Bogotá, Colombia</div>
+              </div>
+            </div>
+            <div class="hv-body">
+              <div class="hv-header-row">
+                <h3 class="hv-role">Técnico Profesional y Soporte</h3>
+                <span class="tag-chip">2011 – 2013</span>
+              </div>
+              <div class="hv-company">
+                TowerTech Americas S.A. (Fintech LATAM) &middot; <a href="https://towertech-americas.webnode.page" target="_blank" rel="noopener" class="mono">Sitio web ↗</a>
+              </div>
+              <p class="hv-desc">
+                Soporte técnico de alto nivel para hardware privativo y de terceros en el sector Fintech. Gestión integral de mesa de ayuda (Help Desk) para resolución de incidentes críticos y diseño de manuales técnicos y de usuario para soluciones financieras.
+              </p>
+              <div class="tag-list">
+                <span class="tag-chip">Soporte Nivel 2/3</span>
+                <span class="tag-chip">Help Desk</span>
+                <span class="tag-chip">Hardware &amp; Software Fintech</span>
+                <span class="tag-chip">Documentación Técnica</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Empleo 5: Proempaques S.A.S -->
+          <article class="hv-card">
+            <div class="hv-media">
+              <div class="hv-logo-wrap">
+                <img src="assets/logo_proempaques.png" alt="Proempaques S.A.S." />
+              </div>
+              <div>
+                <span class="hv-period">2010 – 2011</span>
+                <div class="hv-location">Bogotá, Colombia</div>
+              </div>
+            </div>
+            <div class="hv-body">
+              <div class="hv-header-row">
+                <h3 class="hv-role">Técnico de Sistemas</h3>
+                <span class="tag-chip">2010 – 2011</span>
+              </div>
+              <div class="hv-company">
+                Proempaques S.A.S. &middot; <a href="https://connectamericas.com/es/company/proempaques-sas" target="_blank" rel="noopener" class="mono">Perfil corporativo ↗</a>
+              </div>
+              <p class="hv-desc">
+                Mantenimiento preventivo y correctivo de estaciones de trabajo y servidores en entornos multiplataforma (Linux, macOS y Windows), actualización de software corporativo y administración de copias de seguridad automatizadas en sistemas QNAP NAS.
+              </p>
+              <div class="tag-list">
+                <span class="tag-chip">Linux / macOS / Windows</span>
+                <span class="tag-chip">QNAP NAS Backups</span>
+                <span class="tag-chip">Infraestructura TI</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. ESTUDIOS (EDUCACIÓN FORMAL, DIPLOMADOS Y CERTIFICACIONES CONDENSADAS) -->
+    <section id="estudios" class="section-dev" data-filter-section="estudios">
+      <div class="container-dev">
+        <div class="section-header-dev">
+          <div>
+            <div class="section-kicker">02 &middot; Formación Académica y Continua</div>
+            <h2 class="section-title"><i class="bi bi-mortarboard me-2"></i>Estudios, Diplomados y Certificaciones</h2>
+          </div>
+        </div>
+
+        <div class="hv-list">
+          <!-- Estudio 1: CUN 9no Semestre -->
+          <article class="hv-card">
+            <div class="hv-media">
+              <div class="hv-logo-wrap">
+                <img src="assets/logo_cun.jpg" alt="CUN" />
+              </div>
+              <div>
+                <span class="hv-period">2023 – Actualidad</span>
+                <div class="hv-location">Bogotá, Colombia</div>
+              </div>
+            </div>
+            <div class="hv-body">
+              <div class="hv-header-row">
+                <h3 class="hv-role">Ingeniería en Sistemas — 9.º Semestre</h3>
+                <span class="tag-chip tag-chip-solid">EN CURSO &middot; 9.º SEMESTRE</span>
+              </div>
+              <div class="hv-company">Corporación Unificada Nacional de Educación Superior (CUN)</div>
+              <p class="hv-desc">
+                Carrera profesional universitaria en curso (noveno semestre). Énfasis en ingeniería y arquitectura de software, desarrollo de aplicaciones empresariales y móviles, bases de datos, redes, seguridad informática y gerencia de proyectos TI.
+              </p>
+              <div class="tag-list">
+                <span class="tag-chip">Ingeniería de Software</span>
+                <span class="tag-chip">Arquitectura de Sistemas</span>
+                <span class="tag-chip">Estructuras de Datos</span>
+                <span class="tag-chip">Redes y Seguridad</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Estudio 2: Universidad Sergio Arboleda - Misión TIC -->
+          <article class="hv-card">
+            <div class="hv-media">
+              <div class="hv-logo-wrap">
+                <img src="assets/misionticuarboleda.png" alt="Universidad Sergio Arboleda Misión TIC" />
+              </div>
+              <div>
+                <span class="hv-period">2021 – 2022</span>
+                <div class="hv-location">800 Horas &middot; Bogotá</div>
+              </div>
+            </div>
+            <div class="hv-body">
+              <div class="hv-header-row">
+                <h3 class="hv-role">Diplomado en Programación Full Stack</h3>
+                <span class="tag-chip">800 HORAS</span>
+              </div>
+              <div class="hv-company">Universidad Sergio Arboleda &middot; Misión TIC</div>
+              <p class="hv-desc">
+                Programa intensivo de 800 horas en desarrollo de software Full Stack: fundamentos de programación, programación orientada a objetos en Java, desarrollo de aplicaciones web Backend y Frontend, despliegue y metodologías ágiles.
+              </p>
+              <div class="tag-list">
+                <span class="tag-chip">Java</span>
+                <span class="tag-chip">Spring Boot</span>
+                <span class="tag-chip">Desarrollo Web Full Stack</span>
+                <span class="tag-chip">Bases de Datos</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Estudio 3: SENA -->
+          <article class="hv-card">
+            <div class="hv-media">
+              <div class="hv-logo-wrap">
+                <img src="assets/logo_sena.svg" alt="SENA" />
+              </div>
+              <div>
+                <span class="hv-period">2008 – 2010</span>
+                <div class="hv-location">La Dorada, Caldas</div>
+              </div>
+            </div>
+            <div class="hv-body">
+              <div class="hv-header-row">
+                <h3 class="hv-role">Técnico Profesional en Programación de Software</h3>
+                <span class="tag-chip">TITULADO</span>
+              </div>
+              <div class="hv-company">Servicio Nacional de Aprendizaje (SENA)</div>
+              <p class="hv-desc">
+                Formación técnica profesional en análisis de requerimientos, lógica algorítmica, programación orientada a objetos, diseño de bases de datos relacionales y aseguramiento de calidad de software.
+              </p>
+              <div class="tag-list">
+                <span class="tag-chip">Lógica de Programación</span>
+                <span class="tag-chip">POO</span>
+                <span class="tag-chip">SQL</span>
+                <span class="tag-chip">Análisis y Diseño</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Estudio 4: Alura LATAM & Oracle ONE (Condensado de todos los programas) -->
+          <article class="hv-card">
+            <div class="hv-media">
+              <div class="hv-logo-wrap">
+                <img src="assets/logo_alura.jpg" alt="Alura LATAM - Oracle ONE" />
+              </div>
+              <div>
+                <span class="hv-period">2023</span>
+                <div class="hv-location">+770 Horas Totales</div>
+              </div>
+            </div>
+            <div class="hv-body">
+              <div class="hv-header-row">
+                <h3 class="hv-role">Especialización Frontend ReactJS, SQL, OCI &amp; Data Science</h3>
+                <span class="tag-chip">ORACLE NEXT EDUCATION</span>
+              </div>
+              <div class="hv-company">Alura LATAM &amp; Oracle (Programa ONE)</div>
+              <p class="hv-desc">
+                Formación integral compuesta por el programa principal de <strong>Programación Frontend con profundización en ReactJS (400 horas)</strong> y 7 rutas técnicas y corporativas completadas:
+              </p>
+              <div class="tag-list">
+                <span class="tag-chip tag-chip-solid">Frontend &amp; ReactJS (400h)</span>
+                <span class="tag-chip">SQL con MySQL Server de Oracle (14 cursos · 159h)</span>
+                <span class="tag-chip">Python, Data Science en OCI &amp; Oracle Analytics (9 cursos · 94h)</span>
+                <span class="tag-chip">Oracle Cloud Infrastructure OCI (2 cursos · 17h)</span>
+                <span class="tag-chip">Business Agility (4 cursos · 26h)</span>
+                <span class="tag-chip">Emprendimiento (5 cursos · 45h)</span>
+                <span class="tag-chip">Desarrollo Personal (4 cursos · 35h)</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Estudio 5: Google & Coursera Ciberseguridad (Condensado de los 8 módulos) -->
+          <article class="hv-card">
+            <div class="hv-media">
+              <div class="hv-logo-wrap">
+                <img src="assets/logo_google_coursera.jpg" alt="Google - Coursera" />
+              </div>
+              <div>
+                <span class="hv-period">2023 – 2024</span>
+                <div class="hv-location">8 Módulos &middot; Online</div>
+              </div>
+            </div>
+            <div class="hv-body">
+              <div class="hv-header-row">
+                <h3 class="hv-role">Certificado Profesional en Ciberseguridad de Google</h3>
+                <span class="tag-chip">8 CURSOS</span>
+              </div>
+              <div class="hv-company">Google &amp; Coursera</div>
+              <p class="hv-desc">
+                Especialización en seguridad informática, mitigación de riesgos, protección de redes, administración segura en Linux/SQL y automatización con Python. Módulos cursados:
+              </p>
+              <div class="tag-list">
+                <span class="tag-chip">1. Fundamentos de Ciberseguridad</span>
+                <span class="tag-chip">2. Gestión de Riesgos de Seguridad</span>
+                <span class="tag-chip">3. Redes y Seguridad de Redes</span>
+                <span class="tag-chip">4. Herramientas Linux y SQL</span>
+                <span class="tag-chip">5. Activos, Amenazas y Vulnerabilidades</span>
+                <span class="tag-chip">6. Detección y Respuesta (SIEM)</span>
+                <span class="tag-chip">7. Automatización con Python</span>
+                <span class="tag-chip">8. Práctica Profesional en Ciberseguridad</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Estudio 6: EF SET Inglés C1 -->
+          <article class="hv-card">
+            <div class="hv-media">
+              <div class="hv-logo-wrap">
+                <img src="assets/logo_efset.jpg" alt="EF SET Certificate" />
+              </div>
+              <div>
+                <span class="hv-period">2023</span>
+                <div class="hv-location">Certificación Internacional</div>
+              </div>
+            </div>
+            <div class="hv-body">
+              <div class="hv-header-row">
+                <h3 class="hv-role">EF Standard English Test (EF SET) — Nivel C1</h3>
+                <span class="tag-chip tag-chip-solid">ENGLISH C1</span>
+              </div>
+              <div class="hv-company">EF Education First</div>
+              <p class="hv-desc">
+                Certificación estandarizada de competencia en el idioma inglés en nivel avanzado (<strong>C1 Proficient</strong> según el Marco Común Europeo de Referencia - MCER).
+              </p>
+              <div class="tag-list">
+                <span class="tag-chip">Inglés Avanzado C1</span>
+                <span class="tag-chip">Comprensión Lectora &amp; Auditiva Técnica</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. SKILLS TÉCNICAS Y HABILIDADES PROFESIONALES -->
+    <section id="skills" class="section-dev" data-filter-section="skills">
+      <div class="container-dev">
+        <div class="section-header-dev">
+          <div>
+            <div class="section-kicker">03 &middot; Competencias</div>
+            <h2 class="section-title"><i class="bi bi-cpu me-2"></i>Lenguajes, Frameworks y Habilidades</h2>
+          </div>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-box">
+            <div class="skill-box-title"><i class="bi bi-code-slash"></i> Backend &amp; Lenguajes</div>
+            <div class="tag-list">
+              <span class="tag-chip tag-chip-solid">Java</span>
+              <span class="tag-chip tag-chip-solid">Spring Boot</span>
+              <span class="tag-chip">Node.js</span>
+              <span class="tag-chip">Python</span>
+              <span class="tag-chip">Java Swing</span>
+              <span class="tag-chip">RESTful APIs</span>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-box-title"><i class="bi bi-layout-text-window-reverse"></i> Frontend &amp; Web</div>
+            <div class="tag-list">
+              <span class="tag-chip tag-chip-solid">Angular</span>
+              <span class="tag-chip tag-chip-solid">ReactJS</span>
+              <span class="tag-chip">JavaScript (ES6+)</span>
+              <span class="tag-chip">HTML5 Semántico</span>
+              <span class="tag-chip">CSS3 Avanzado</span>
+              <span class="tag-chip">Responsive Design</span>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-box-title"><i class="bi bi-smartwatch"></i> Mobile, Wear OS &amp; BI</div>
+            <div class="tag-list">
+              <span class="tag-chip tag-chip-solid">Android SDK</span>
+              <span class="tag-chip tag-chip-solid">Wear OS 3+ / 5+</span>
+              <span class="tag-chip">Watch Face Format v2</span>
+              <span class="tag-chip">libsignal E2EE</span>
+              <span class="tag-chip">Power BI / Qlik BI</span>
+              <span class="tag-chip">JasperReports / Birt</span>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-box-title"><i class="bi bi-database"></i> Bases de Datos &amp; DevOps</div>
+            <div class="tag-list">
+              <span class="tag-chip">MySQL</span>
+              <span class="tag-chip">MariaDB</span>
+              <span class="tag-chip">MongoDB</span>
+              <span class="tag-chip">SQLite</span>
+              <span class="tag-chip">DerbyDB</span>
+              <span class="tag-chip">Docker</span>
+              <span class="tag-chip">Git &amp; GitHub</span>
+              <span class="tag-chip">Linux / OCI</span>
+            </div>
+          </div>
+
+          <div class="skill-box" style="grid-column: 1 / -1;">
+            <div class="skill-box-title"><i class="bi bi-person-check"></i> Habilidades Blandas y Liderazgo</div>
+            <div class="tag-list">
+              <span class="tag-chip">Pensamiento Lógico</span>
+              <span class="tag-chip">Resolución de Problemas</span>
+              <span class="tag-chip">Comunicación Asertiva</span>
+              <span class="tag-chip">Capacidad de Análisis</span>
+              <span class="tag-chip">Trabajo en Equipo</span>
+              <span class="tag-chip">Iniciativa y Creatividad</span>
+              <span class="tag-chip">Adaptabilidad</span>
+              <span class="tag-chip">Gestión del Tiempo</span>
+              <span class="tag-chip">Gestión de Riesgos</span>
+              <span class="tag-chip">Empatía y Respeto</span>
+              <span class="tag-chip">Proactividad</span>
+              <span class="tag-chip">Autoaprendizaje y Disciplina</span>
+              <span class="tag-chip">Atención al Detalle</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. DOCUMENTOS Y CERTIFICADOS DESCARGABLES -->
+    <section id="documentos" class="section-dev" data-filter-section="documentos" style="border-bottom: none;">
+      <div class="container-dev">
+        <div class="section-header-dev">
+          <div>
+            <div class="section-kicker">04 &middot; Repositorio Documental</div>
+            <h2 class="section-title"><i class="bi bi-folder-check me-2"></i>Descarga de Hoja de Vida y Certificados</h2>
+          </div>
+        </div>
+
+        <div class="docs-grid">
+          <a class="doc-card" href="https://1drv.ms/b/s!Aqe6iUZoCYlJgaxZl3pTn57XCSZ7gA?e=4d9zEa" target="_blank" rel="noopener">
+            <div>
+              <div class="mono" style="font-size: 0.75rem; color: var(--text-muted);">DOCUMENTO PDF</div>
+              <div style="font-weight: 700; font-size: 1rem;">Descargar Hoja de Vida</div>
+            </div>
+            <i class="bi bi-download" style="font-size: 1.3rem;"></i>
+          </a>
+
+          <a class="doc-card" href="https://1drv.ms/f/s!Aqe6iUZoCYlJgaxHfeYoOGYwprsyDg?e=iKcUh0" target="_blank" rel="noopener">
+            <div>
+              <div class="mono" style="font-size: 0.75rem; color: var(--text-muted);">CARPETA ONEDRIVE</div>
+              <div style="font-weight: 700; font-size: 1rem;">Certificados de Estudio</div>
+            </div>
+            <i class="bi bi-box-arrow-up-right" style="font-size: 1.3rem;"></i>
+          </a>
+
+          <a class="doc-card" href="https://1drv.ms/f/s!Aqe6iUZoCYlJgaxEDErovmrGRLAWIA?e=IxJToH" target="_blank" rel="noopener">
+            <div>
+              <div class="mono" style="font-size: 0.75rem; color: var(--text-muted);">CARPETA ONEDRIVE</div>
+              <div style="font-weight: 700; font-size: 1rem;">Certificados Laborales</div>
+            </div>
+            <i class="bi bi-box-arrow-up-right" style="font-size: 1.3rem;"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container-dev footer-inner">
+      <div>
+        <strong style="color: var(--text-primary);">Cristian Camilo Tabares Villanueva</strong> &middot; Hoja de Vida Profesional (HV)
+      </div>
+      <div class="social-row">
+        <a class="social-link" href="index.html">Inicio</a>
+        <a class="social-link" href="projects.html">Proyectos</a>
+        <a class="social-link" href="https://github.com/soycamiloypunto" target="_blank" rel="noopener">GitHub</a>
+        <a class="social-link" href="https://www.linkedin.com/in/soycamiloypunto/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="social-link" href="mailto:cktv8822@gmail.com">cktv8822@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>

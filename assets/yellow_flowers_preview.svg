@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="skyNight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="60%" stop-color="#131b2e"/>
+      <stop offset="100%" stop-color="#1b2838"/>
+    </linearGradient>
+    <radialGradient id="flowerGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd700" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ffd700" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#skyNight)"/>
+  <!-- Stars -->
+  <g fill="#ffffff" opacity="0.8">
+    <circle cx="90" cy="60" r="1.5"/>
+    <circle cx="170" cy="40" r="2"/>
+    <circle cx="280" cy="85" r="1.2"/>
+    <circle cx="390" cy="45" r="1.8"/>
+    <circle cx="510" cy="70" r="1.4"/>
+    <circle cx="620" cy="35" r="2"/>
+    <circle cx="720" cy="80" r="1.5"/>
+    <circle cx="130" cy="130" r="1.2"/>
+    <circle cx="660" cy="140" r="1.6"/>
+  </g>
+  <!-- Moon -->
+  <circle cx="680" cy="85" r="32" fill="#fef08a" opacity="0.9"/>
+  <circle cx="668" cy="76" r="28" fill="#0d1321"/>
+  <!-- Glassmorphism message card -->
+  <rect x="210" y="65" width="380" height="68" rx="20" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.22)" stroke-width="1.5"/>
+  <text x="400" y="106" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="20" font-weight="700" fill="#fef08a">🌼 ¡Aquí están tus flores amarillas! 🌼</text>
+  <!-- Stems -->
+  <g stroke="#15803d" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M250,450 Q245,350 260,265"/>
+    <path d="M400,450 Q405,330 400,225"/>
+    <path d="M550,450 Q555,350 540,265"/>
+    <path d="M160,450 Q150,375 170,315"/>
+    <path d="M640,450 Q650,375 630,315"/>
+  </g>
+  <!-- Leaves -->
+  <g fill="#16a34a">
+    <ellipse cx="235" cy="350" rx="22" ry="9" transform="rotate(-25 235 350)"/>
+    <ellipse cx="275" cy="330" rx="22" ry="9" transform="rotate(25 275 330)"/>
+    <ellipse cx="375" cy="320" rx="26" ry="11" transform="rotate(-28 375 320)"/>
+    <ellipse cx="425" cy="300" rx="26" ry="11" transform="rotate(28 425 300)"/>
+    <ellipse cx="520" cy="340" rx="22" ry="9" transform="rotate(-25 520 340)"/>
+    <ellipse cx="565" cy="355" rx="22" ry="9" transform="rotate(25 565 355)"/>
+  </g>
+  <!-- Flower Glows -->
+  <circle cx="400" cy="220" r="85" fill="url(#flowerGlow)"/>
+  <circle cx="260" cy="260" r="65" fill="url(#flowerGlow)"/>
+  <circle cx="540" cy="260" r="65" fill="url(#flowerGlow)"/>
+  <!-- Flower 1 (Center) -->
+  <g transform="translate(400,220)">
+    <g fill="#facc15">
+      <ellipse cx="0" cy="-34" rx="14" ry="26"/>
+      <ellipse cx="0" cy="34" rx="14" ry="26"/>
+      <ellipse cx="-34" cy="0" rx="26" ry="14"/>
+      <ellipse cx="34" cy="0" rx="26" ry="14"/>
+      <ellipse cx="-24" cy="-24" rx="20" ry="13" transform="rotate(45 -24 -24)"/>
+      <ellipse cx="24" cy="-24" rx="20" ry="13" transform="rotate(-45 24 -24)"/>
+      <ellipse cx="-24" cy="24" rx="20" ry="13" transform="rotate(-45 -24 24)"/>
+      <ellipse cx="24" cy="24" rx="20" ry="13" transform="rotate(45 24 24)"/>
+    </g>
+    <circle cx="0" cy="0" r="18" fill="#ca8a04"/>
+    <circle cx="0" cy="0" r="12" fill="#854d0e"/>
+  </g>
+  <!-- Flower 2 (Left) -->
+  <g transform="translate(260,260) scale(0.82)">
+    <g fill="#fde047">
+      <ellipse cx="0" cy="-34" rx="14" ry="26"/>
+      <ellipse cx="0" cy="34" rx="14" ry="26"/>
+      <ellipse cx="-34" cy="0" rx="26" ry="14"/>
+      <ellipse cx="34" cy="0" rx="26" ry="14"/>
+      <ellipse cx="-24" cy="-24" rx="20" ry="13" transform="rotate(45 -24 -24)"/>
+      <ellipse cx="24" cy="-24" rx="20" ry="13" transform="rotate(-45 24 -24)"/>
+      <ellipse cx="-24" cy="24" rx="20" ry="13" transform="rotate(-45 -24 24)"/>
+      <ellipse cx="24" cy="24" rx="20" ry="13" transform="rotate(45 24 24)"/>
+    </g>
+    <circle cx="0" cy="0" r="18" fill="#ca8a04"/>
+  </g>
+  <!-- Flower 3 (Right) -->
+  <g transform="translate(540,260) scale(0.82)">
+    <g fill="#fde047">
+      <ellipse cx="0" cy="-34" rx="14" ry="26"/>
+      <ellipse cx="0" cy="34" rx="14" ry="26"/>
+      <ellipse cx="-34" cy="0" rx="26" ry="14"/>
+      <ellipse cx="34" cy="0" rx="26" ry="14"/>
+      <ellipse cx="-24" cy="-24" rx="20" ry="13" transform="rotate(45 -24 -24)"/>
+      <ellipse cx="24" cy="-24" rx="20" ry="13" transform="rotate(-45 24 -24)"/>
+      <ellipse cx="-24" cy="24" rx="20" ry="13" transform="rotate(-45 -24 24)"/>
+      <ellipse cx="24" cy="24" rx="20" ry="13" transform="rotate(45 24 24)"/>
+    </g>
+    <circle cx="0" cy="0" r="18" fill="#ca8a04"/>
+  </g>
+  <!-- Small Side Flowers -->
+  <g transform="translate(170,315) scale(0.6)">
+    <circle cx="0" cy="-28" r="16" fill="#facc15"/>
+    <circle cx="0" cy="28" r="16" fill="#facc15"/>
+    <circle cx="-28" cy="0" r="16" fill="#facc15"/>
+    <circle cx="28" cy="0" r="16" fill="#facc15"/>
+    <circle cx="0" cy="0" r="16" fill="#a16207"/>
+  </g>
+  <g transform="translate(630,315) scale(0.6)">
+    <circle cx="0" cy="-28" r="16" fill="#facc15"/>
+    <circle cx="0" cy="28" r="16" fill="#facc15"/>
+    <circle cx="-28" cy="0" r="16" fill="#facc15"/>
+    <circle cx="28" cy="0" r="16" fill="#facc15"/>
+    <circle cx="0" cy="0" r="16" fill="#a16207"/>
+  </g>
+  <!-- Bottom Glassmorphism Control Dock -->
+  <rect x="290" y="382" width="220" height="44" rx="22" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <circle cx="335" cy="404" r="14" fill="rgba(255,255,255,0.18)"/>
+  <circle cx="400" cy="404" r="14" fill="rgba(250,204,21,0.35)"/>
+  <circle cx="465" cy="404" r="14" fill="rgba(255,255,255,0.18)"/>
+</svg>

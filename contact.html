@@ -1,131 +1,144 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content />
-        <meta name="author" content />
-        <title>Cristian Camilo Tabares Villanueva</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Custom Google font-->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" />
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body class="d-flex flex-column">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
-                <div class="container px-5">
-                    <a class="navbar-brand" href="index.html"><span class="fw-bolder text-primary">CCTV</span></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="resume.html">Conóceme</a></li>
-                            <li class="nav-item"><a class="nav-link" href="projects.html">Proyectos</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contacto</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- Page content-->
-            <section class="py-5">
-                <div class="container px-5">
-                    <!-- Contact form-->
-                    <div class="bg-light rounded-4 py-5 px-4 px-md-5">
-                        <div class="text-center mb-5">
-                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 mb-3"><i class="bi bi-envelope"></i></div>
-                            <h1 class="fw-bolder">Escríbeme</h1>
-                            <p class="lead fw-normal text-muted mb-0">Trabajemos Juntos!</p>
-                        </div>
-                        <div class="row gx-5 justify-content-center">
-                            <div class="col-lg-8 col-xl-6">
-                                <!-- * * * * * * * * * * * * * * *-->
-                                <!-- * * SB Forms Contact Form * *-->
-                                <!-- * * * * * * * * * * * * * * *-->
-                                <!-- This form is pre-integrated with SB Forms.-->
-                                <!-- To make this form functional, sign up at-->
-                                <!-- https://startbootstrap.com/solution/contact-forms-->
-                                <!-- to get an API token!-->
-                                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                                    <!-- Name input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                        <label for="name">Nombres</label>
-                                        <div class="invalid-feedback" data-sb-feedback="name:required">Nombre Requerido.</div>
-                                    </div>
-                                    <!-- Email address input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="email" type="email" placeholder="correo@correo.com" data-sb-validations="required,email" />
-                                        <label for="email">Email</label>
-                                        <div class="invalid-feedback" data-sb-feedback="email:required">Email Requerido.</div>
-                                        <div class="invalid-feedback" data-sb-feedback="email:email">Email Inválido.</div>
-                                    </div>
-                                    <!-- Phone number input-->
-                                    <div class="form-floating mb-3">
-                                        <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                        <label for="phone">Teléfono</label>
-                                        <div class="invalid-feedback" data-sb-feedback="phone:required">Teléfono Requerido.</div>
-                                    </div>
-                                    <!-- Message input-->
-                                    <div class="form-floating mb-3">
-                                        <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                        <label for="message">Mensaje</label>
-                                        <div class="invalid-feedback" data-sb-feedback="message:required">Mensaje Requerido.</div>
-                                    </div>
-                                    <!-- Submit success message-->
-                                    <!---->
-                                    <!-- This is what your users will see when the form-->
-                                    <!-- has successfully submitted-->
-                                    <div class="d-none" id="submitSuccessMessage">
-                                        <div class="text-center mb-3">
-                                            <div class="fw-bolder">Envío Exitoso!</div>
-                                            <!-- <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a> -->
-                                        </div>
-                                    </div>
-                                    <!-- Submit error message-->
-                                    <!---->
-                                    <!-- This is what your users will see when there is-->
-                                    <!-- an error submitting the form-->
-                                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                                    <!-- Submit Button-->
-                                    <div class="d-grid"><button class="btn btn-primary btn-lg disabled" id="submitButton" href="mailto:cktv8822@gmail.com" type="submit">Enviar</button></div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <!-- Footer-->
-        <footer class="bg-white py-4 mt-auto">
-            <div class="container px-5">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0">Copyright &copy; Cristian Camilo Tabares Villanueva 2023</div></div>
-                    <div class="col-auto">
-                        <!-- <a class="small" href="#!">Privacy</a>
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="#!">Terms</a> -->
-                        <span class="mx-1">&middot;</span>
-                        <a class="small" href="mailto:cktv8822@gmail.com">Contáctame</a>
-                    </div>
-                </div>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Contacto profesional y soporte de desarrollador de Cristian Camilo Tabares Villanueva." />
+  <meta name="author" content="Cristian Camilo Tabares Villanueva" />
+  <title>Contacto · Cristian Camilo Tabares Villanueva</title>
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+  <!-- Google Fonts: Roboto & Roboto Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&amp;family=Roboto:wght@300;400;500;700;900&amp;display=swap" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <!-- Main Stylesheet -->
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Top Navigation -->
+  <header class="site-header">
+    <div class="container-dev navbar-dev">
+      <a class="brand-dev" href="index.html">
+        <span class="brand-mark">CCTV</span>
+        <span class="brand-name">Cristian Camilo Tabares</span>
+      </a>
+
+      <ul class="nav-links-dev" data-nav-list>
+        <li><a href="index.html"><i class="bi bi-terminal"></i> Inicio</a></li>
+        <li><a href="resume.html"><i class="bi bi-file-earmark-person"></i> Hoja de Vida (HV)</a></li>
+        <li><a href="projects.html"><i class="bi bi-code-square"></i> Proyectos</a></li>
+        <li><a class="active" href="contact.html"><i class="bi bi-envelope"></i> Contacto</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button type="button" class="theme-toggle-btn" data-theme-toggle aria-label="Cambiar tema">
+          <i class="bi bi-circle-half"></i> <span>Auto</span>
+        </button>
+        <button type="button" class="mobile-menu-btn" data-mobile-toggle aria-label="Menú">
+          <i class="bi bi-list"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-dev" style="border-bottom: none; padding: 56px 0;">
+      <div class="container-dev">
+        <div class="section-header-dev">
+          <div>
+            <div class="section-kicker">Canales Oficiales &middot; Desarrollador &amp; Google Play Support</div>
+            <h1 class="hero-title" style="font-size: clamp(1.8rem, 3.5vw, 2.4rem); margin-bottom: 8px;">Contacto Profesional</h1>
+            <p class="hero-bio" style="margin-bottom: 0;">
+              Disponible para oportunidades profesionales, consultoría de software, colaboraciones técnicas o soporte de aplicaciones publicadas en Google Play.
+            </p>
+          </div>
+        </div>
+
+        <div class="docs-grid" style="margin-bottom: 36px;">
+          <a class="doc-card" href="mailto:cktv8822@gmail.com">
+            <div>
+              <div class="mono" style="font-size: 0.75rem; color: var(--text-muted);">CORREO PRINCIPAL</div>
+              <div style="font-weight: 700; font-size: 1rem;">cktv8822@gmail.com</div>
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+            <i class="bi bi-envelope-fill" style="font-size: 1.3rem;"></i>
+          </a>
+
+          <a class="doc-card" href="https://www.linkedin.com/in/soycamiloypunto/" target="_blank" rel="noopener">
+            <div>
+              <div class="mono" style="font-size: 0.75rem; color: var(--text-muted);">RED PROFESIONAL</div>
+              <div style="font-weight: 700; font-size: 1rem;">linkedin.com/in/soycamiloypunto</div>
+            </div>
+            <i class="bi bi-linkedin" style="font-size: 1.3rem;"></i>
+          </a>
+
+          <a class="doc-card" href="https://github.com/soycamiloypunto" target="_blank" rel="noopener">
+            <div>
+              <div class="mono" style="font-size: 0.75rem; color: var(--text-muted);">REPOSITORIOS &amp; CÓDIGO</div>
+              <div style="font-weight: 700; font-size: 1rem;">github.com/soycamiloypunto</div>
+            </div>
+            <i class="bi bi-github" style="font-size: 1.3rem;"></i>
+          </a>
+
+          <a class="doc-card" href="https://x.com/soycamiloypunto" target="_blank" rel="noopener">
+            <div>
+              <div class="mono" style="font-size: 0.75rem; color: var(--text-muted);">X / TWITTER</div>
+              <div style="font-weight: 700; font-size: 1rem;">@soycamiloypunto</div>
+            </div>
+            <i class="bi bi-twitter-x" style="font-size: 1.3rem;"></i>
+          </a>
+        </div>
+
+        <!-- Direct Message Card -->
+        <div class="hv-card" style="grid-template-columns: 1fr;">
+          <div class="hv-body">
+            <h2 class="hv-role" style="margin-bottom: 6px;">Enviar un mensaje directo</h2>
+            <p class="hv-desc">Completa los campos para redactar un correo directo a mi bandeja principal (<code>cktv8822@gmail.com</code>).</p>
+
+            <form onsubmit="event.preventDefault(); const n=document.getElementById('c_name').value; const s=document.getElementById('c_subj').value || 'Contacto desde Portafolio Web'; const m=document.getElementById('c_msg').value; window.location.href='mailto:cktv8822@gmail.com?subject='+encodeURIComponent(s+' - '+n)+'&body='+encodeURIComponent(m);">
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-bottom: 16px;">
+                <div>
+                  <label for="c_name" class="mono" style="display: block; font-size: 0.78rem; margin-bottom: 6px; color: var(--text-secondary);">NOMBRE / EMPRESA</label>
+                  <input id="c_name" type="text" required placeholder="Tu nombre o empresa" style="width: 100%; padding: 10px 14px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-secondary); color: var(--text-primary); font-family: var(--font-sans);" />
+                </div>
+                <div>
+                  <label for="c_subj" class="mono" style="display: block; font-size: 0.78rem; margin-bottom: 6px; color: var(--text-secondary);">ASUNTO</label>
+                  <input id="c_subj" type="text" required placeholder="Oportunidad laboral / Proyecto / Soporte" style="width: 100%; padding: 10px 14px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-secondary); color: var(--text-primary); font-family: var(--font-sans);" />
+                </div>
+              </div>
+              <div style="margin-bottom: 18px;">
+                <label for="c_msg" class="mono" style="display: block; font-size: 0.78rem; margin-bottom: 6px; color: var(--text-secondary);">MENSAJE</label>
+                <textarea id="c_msg" rows="5" required placeholder="Escribe tu mensaje aquí..." style="width: 100%; padding: 12px 14px; border-radius: 6px; border: 1px solid var(--border-color); background: var(--bg-secondary); color: var(--text-primary); font-family: var(--font-sans); resize: vertical;"></textarea>
+              </div>
+              <button type="submit" class="btn-dev btn-dev-primary">
+                <i class="bi bi-send"></i> Redactar Correo
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container-dev footer-inner">
+      <div>
+        <strong style="color: var(--text-primary);">Cristian Camilo Tabares Villanueva</strong> &middot; Bogotá, Colombia
+      </div>
+      <div class="social-row">
+        <a class="social-link" href="index.html">Inicio</a>
+        <a class="social-link" href="resume.html">HV</a>
+        <a class="social-link" href="projects.html">Proyectos</a>
+        <a class="social-link" href="mailto:cktv8822@gmail.com">cktv8822@gmail.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+
 </html>

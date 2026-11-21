@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320">
+  <defs>
+    <linearGradient id="bgPragma" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0d11"/>
+      <stop offset="100%" stop-color="#1c1c24"/>
+    </linearGradient>
+    <linearGradient id="accentPragma" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#a1a1aa"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="320" rx="16" fill="url(#bgPragma)"/>
+  <!-- Subtle architectural grid representing modern tech campus -->
+  <g stroke="rgba(255,255,255,0.06)" stroke-width="1">
+    <line x1="0" y1="64" x2="600" y2="64"/>
+    <line x1="0" y1="128" x2="600" y2="128"/>
+    <line x1="0" y1="192" x2="600" y2="192"/>
+    <line x1="0" y1="256" x2="600" y2="256"/>
+    <line x1="120" y1="0" x2="120" y2="320"/>
+    <line x1="240" y1="0" x2="240" y2="320"/>
+    <line x1="360" y1="0" x2="360" y2="320"/>
+    <line x1="480" y1="0" x2="480" y2="320"/>
+  </g>
+  <!-- Decorative geometric emblem -->
+  <circle cx="490" cy="80" r="95" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="2"/>
+  <circle cx="490" cy="80" r="60" fill="none" stroke="rgba(255,255,255,0.12)" stroke-width="1.5" stroke-dasharray="6 6"/>
+  <!-- Pragma wordmark -->
+  <text x="60" y="168" font-family="'Roboto', 'Inter', -apple-system, sans-serif" font-size="68" font-weight="900" letter-spacing="-2" fill="url(#accentPragma)">pragma</text>
+  <circle cx="312" cy="156" r="7" fill="#ffffff"/>
+  <text x="62" y="210" font-family="'Roboto Mono', monospace" font-size="14" font-weight="500" letter-spacing="3" fill="#a1a1aa">PRAGMA S.A.S · TRANSFORMACIÓN DIGITAL</text>
+  <rect x="62" y="232" width="64" height="3" rx="1.5" fill="#ffffff" opacity="0.8"/>
+</svg>

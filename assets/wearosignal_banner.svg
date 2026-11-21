@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bgWear" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a10"/>
+      <stop offset="50%" stop-color="#0d1424"/>
+      <stop offset="100%" stop-color="#080c14"/>
+    </linearGradient>
+    <radialGradient id="watchGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bgWear)"/>
+  <!-- Left info block -->
+  <g transform="translate(55, 85)">
+    <rect x="0" y="0" width="165" height="28" rx="14" fill="rgba(59,130,246,0.16)" stroke="#3b82f6" stroke-width="1"/>
+    <text x="82.5" y="18" text-anchor="middle" font-family="'Roboto Mono', monospace" font-size="11" font-weight="700" fill="#60a5fa">WEAR OS 3+ · AGPLv3</text>
+    <text x="0" y="74" font-family="'Roboto', sans-serif" font-size="44" font-weight="900" fill="#ffffff">WearOSignal</text>
+    <text x="0" y="106" font-family="'Roboto', sans-serif" font-size="16" fill="#94a3b8">Cliente independiente de Signal para Wear OS</text>
+    <g transform="translate(0, 136)" font-family="'Roboto Mono', monospace" font-size="12.5" fill="#cbd5e1">
+      <text x="0" y="0">✓ E2EE directo · libsignal-android 0.94.4</text>
+      <text x="0" y="26">✓ Notas de voz AAC/M4A con ondas en vivo</text>
+      <text x="0" y="52">✓ Stickers WebP/GIF, fotos, audio y video</text>
+      <text x="0" y="78">✓ Keystore AES/GCM 256-bit · Cero telemetría</text>
+    </g>
+  </g>
+  <!-- Right circular Watch UI Mockup -->
+  <circle cx="605" cy="225" r="185" fill="url(#watchGlow)"/>
+  <!-- Watch lugs -->
+  <rect x="550" y="30" width="110" height="45" rx="12" fill="#1e293b"/>
+  <rect x="550" y="375" width="110" height="45" rx="12" fill="#1e293b"/>
+  <!-- Watch bezel -->
+  <circle cx="605" cy="225" r="154" fill="#000000" stroke="#334155" stroke-width="8"/>
+  <circle cx="605" cy="225" r="146" fill="#05080f" stroke="#1e293b" stroke-width="1.5"/>
+  <!-- Watch screen content: Circular chat UI -->
+  <text x="605" y="108" text-anchor="middle" font-family="'Roboto Mono', monospace" font-size="11" font-weight="700" fill="#60a5fa">10:09 · SIGNAL E2EE</text>
+  <!-- Incoming bubble -->
+  <rect x="495" y="124" width="160" height="38" rx="16" fill="#1e293b"/>
+  <text x="512" y="147" font-family="'Roboto', sans-serif" font-size="12" fill="#f8fafc">¿Listo el deploy en Wear OS?</text>
+  <!-- Outgoing voice note bubble -->
+  <rect x="530" y="172" width="182" height="44" rx="18" fill="#2563eb"/>
+  <circle cx="552" cy="194" r="11" fill="#ffffff"/>
+  <polygon points="549,188 549,200 559,194" fill="#2563eb"/>
+  <!-- Waveform bars -->
+  <g fill="#ffffff" opacity="0.9">
+    <rect x="572" y="186" width="3" height="16" rx="1.5"/>
+    <rect x="579" y="180" width="3" height="28" rx="1.5"/>
+    <rect x="586" y="184" width="3" height="20" rx="1.5"/>
+    <rect x="593" y="178" width="3" height="32" rx="1.5"/>
+    <rect x="600" y="183" width="3" height="22" rx="1.5"/>
+    <rect x="607" y="188" width="3" height="12" rx="1.5"/>
+    <rect x="614" y="181" width="3" height="26" rx="1.5"/>
+    <rect x="621" y="185" width="3" height="18" rx="1.5"/>
+    <rect x="628" y="189" width="3" height="10" rx="1.5"/>
+  </g>
+  <text x="676" y="198" text-anchor="end" font-family="'Roboto Mono', monospace" font-size="10" fill="#dbeafe">0:14</text>
+  <!-- 3-Button Reply Bar (Voice, Emoji, Text) -->
+  <g transform="translate(605, 255)">
+    <circle cx="-54" cy="0" r="22" fill="#2563eb"/>
+    <text x="-54" y="6" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="16" fill="#ffffff">🎤</text>
+    <circle cx="0" cy="0" r="22" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    <text x="0" y="6" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="16" fill="#ffffff">😊</text>
+    <circle cx="54" cy="0" r="22" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+    <text x="54" y="5" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="13" font-weight="700" fill="#ffffff">Aa</text>
+  </g>
+  <!-- Quick reply pill -->
+  <rect x="535" y="294" width="140" height="26" rx="13" fill="#111827" stroke="#1e293b" stroke-width="1"/>
+  <text x="605" y="311" text-anchor="middle" font-family="'Roboto', sans-serif" font-size="11" fill="#94a3b8">👍 ¡Todo listo!</text>
+</svg>
