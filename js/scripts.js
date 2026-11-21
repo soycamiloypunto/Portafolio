@@ -1,6 +1,6 @@
 /*!
  * Cristian Camilo Tabares Villanueva — Portfolio & HV Scripts
- * Automatic Browser Theme (prefers-color-scheme) + Filter Tabs + Mobile Nav
+ * Automatic Browser Theme (prefers-color-scheme) + Filter Tabs + Export HV to PDF
  */
 (function () {
   'use strict';
@@ -26,7 +26,7 @@
   function updateThemeButtons(mode) {
     const btns = document.querySelectorAll('[data-theme-toggle]');
     const isSystemDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    btns.forEach((btn) => {
+    btns.forEach(function (btn) {
       let icon = 'bi-circle-half';
       let label = 'Auto';
       if (mode === 'dark') {
@@ -43,6 +43,32 @@
       btn.setAttribute('title', 'Tema actual: ' + label + ' (clic para cambiar)');
     });
   }
+
+  function exportHVToPDF() {
+    // Ensure all sections of the HV are visible before generating the PDF
+    const filterButtons = document.querySelectorAll('[data-filter-btn]');
+    const filterItems = document.querySelectorAll('[data-filter-section]');
+    filterButtons.forEach(function (b) {
+      if (b.getAttribute('data-filter-btn') === 'all') {
+        b.classList.add('active');
+      } else {
+        b.classList.remove('active');
+      }
+    });
+    filterItems.forEach(function (sec) {
+      sec.style.display = '';
+    });
+
+    const originalTitle = document.title;
+    document.title = 'HV_Cristian_Camilo_Tabares_Villanueva';
+    window.print();
+    setTimeout(function () {
+      document.title = originalTitle;
+    }, 500);
+  }
+
+  // Expose globally if needed
+  window.exportHVToPDF = exportHVToPDF;
 
   // Initialize theme immediately
   applyTheme(getSavedTheme());
@@ -68,6 +94,21 @@
         applyTheme(next);
       });
     });
+
+    // Export HV to PDF buttons
+    document.querySelectorAll('[data-export-hv]').forEach(function (btn) {
+      btn.addEventListener('click', function (e) {
+        e.preventDefault();
+        exportHVToPDF();
+      });
+    });
+
+    // Auto-trigger PDF export if navigated with ?export=pdf
+    if (window.location.search.indexOf('export=pdf') !== -1) {
+      setTimeout(function () {
+        exportHVToPDF();
+      }, 350);
+    }
 
     // Mobile Menu Toggle
     const menuBtn = document.querySelector('[data-mobile-toggle]');

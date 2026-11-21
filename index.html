@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Portafolio profesional y Hoja de Vida (HV) de Cristian Camilo Tabares Villanueva — Desarrollador de Software Full Stack, Java, Spring Boot, Angular, React y Wear OS / Android." />
+  <meta name="description" content="Portafolio profesional y Hoja de Vida (HV) de Cristian Camilo Tabares Villanueva — Desarrollador de Software Backend, Cloud/Serverless (AWS/Azure), Java 21, Spring WebFlux, Python, Elixir, TypeScript y Wear OS / Android." />
   <meta name="author" content="Cristian Camilo Tabares Villanueva" />
-  <title>Cristian Camilo Tabares Villanueva · Desarrollador de Software | Portafolio &amp; HV</title>
+  <title>Cristian Camilo Tabares Villanueva · Software Developer | Portafolio &amp; HV</title>
   <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
   <!-- Google Fonts: Roboto & Roboto Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -56,9 +56,9 @@
               <span>Actualmente en <strong>PRAGMA S.A.S</strong> &middot; Ing. de Sistemas (9.º Semestre - CUN)</span>
             </div>
             <h1 class="hero-title">Cristian Camilo Tabares Villanueva</h1>
-            <div class="hero-subtitle">Software Developer &middot; Full Stack (Java / Spring Boot / Angular / React) &amp; Wear OS / Android</div>
+            <div class="hero-subtitle">Software Developer &middot; Backend Reactivo, Cloud/Serverless (AWS &amp; Azure), Full Stack &amp; Wear OS</div>
             <p class="hero-bio">
-              Desarrollador de software con más de 10 años de trayectoria construyendo soluciones digitales de alto impacto en entornos empresariales, web y dispositivos móviles/vestibles (Wear OS &amp; Android). Especializado en arquitecturas Backend con <strong>Java y Spring Boot</strong>, interfaces modernas con <strong>Angular, ReactJS, HTML5, CSS3 y JavaScript</strong>, bases de datos relacionales/NoSQL y publicación oficial en <strong>Google Play Console</strong>.
+              Desarrollador de software con más de 10 años de trayectoria diseñando ecosistemas transaccionales escalables, arquitecturas Cloud/Serverless y aplicaciones web y móviles/vestibles (Wear OS &amp; Android). Especializado en programación reactiva con <strong>Java 21, Spring Boot, Spring WebFlux y R2DBC</strong>, microservicios con <strong>Python (AWS Lambda / FastAPI), Elixir y TypeScript / Node.js</strong>, e integración de pipelines de IA generativa en <strong>AWS Bedrock</strong> bajo principios de <strong>Arquitectura Limpia/Hexagonal, DDD y TDD</strong>.
             </p>
 
             <div class="hero-actions">
@@ -68,8 +68,8 @@
               <a class="btn-dev btn-dev-outline" href="projects.html">
                 <i class="bi bi-grid-1x2"></i> Explorar Proyectos
               </a>
-              <a class="btn-dev btn-dev-outline" href="https://1drv.ms/b/s!Aqe6iUZoCYlJgaxZl3pTn57XCSZ7gA?e=4d9zEa" target="_blank" rel="noopener">
-                <i class="bi bi-download"></i> Descargar HV (PDF)
+              <a class="btn-dev btn-dev-outline" href="resume.html?export=pdf">
+                <i class="bi bi-file-earmark-pdf"></i> Exportar HV en PDF
               </a>
             </div>
 
@@ -100,7 +100,7 @@
         <div class="stats-bar">
           <div class="stat-card">
             <div class="stat-value">+10 Años</div>
-            <div class="stat-label">Experiencia en Desarrollo &amp; TI</div>
+            <div class="stat-label">Experiencia en Desarrollo &amp; Arquitectura</div>
           </div>
           <div class="stat-card">
             <div class="stat-value">PRAGMA S.A.S</div>
@@ -111,8 +111,8 @@
             <div class="stat-label">Ingeniería en Sistemas (CUN)</div>
           </div>
           <div class="stat-card">
-            <div class="stat-value">Full Stack &amp; Wear OS</div>
-            <div class="stat-label">Java · Spring Boot · React · Android</div>
+            <div class="stat-value">Backend &amp; Cloud</div>
+            <div class="stat-label">Java 21 · WebFlux · AWS · Python · Elixir</div>
           </div>
         </div>
       </div>
@@ -236,9 +236,14 @@
             <div class="section-kicker">Resumen Curricular</div>
             <h2 class="section-title">Trayectoria Profesional y Académica</h2>
           </div>
-          <a class="btn-dev btn-dev-outline btn-dev-sm" href="resume.html">
-            Ir a la Hoja de Vida completa <i class="bi bi-arrow-right"></i>
-          </a>
+          <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+            <a class="btn-dev btn-dev-outline btn-dev-sm" href="resume.html">
+              Ver HV completa <i class="bi bi-arrow-right"></i>
+            </a>
+            <a class="btn-dev btn-dev-primary btn-dev-sm" href="resume.html?export=pdf">
+              <i class="bi bi-file-earmark-pdf"></i> Exportar HV en PDF
+            </a>
+          </div>
         </div>
 
         <div class="hv-list">
@@ -255,19 +260,21 @@
             </div>
             <div class="hv-body">
               <div class="hv-header-row">
-                <h3 class="hv-role">Desarrollador de Software</h3>
+                <h3 class="hv-role">Desarrollador de Software Backend &amp; Cloud</h3>
                 <span class="tag-chip tag-chip-solid">EMPLEO ACTUAL</span>
               </div>
               <div class="hv-company">PRAGMA S.A.S &middot; <a href="https://www.pragma.co" target="_blank" rel="noopener" class="mono">pragma.co ↗</a></div>
               <p class="hv-desc">
-                Desarrollo e ingeniería de soluciones digitales escalables, aplicando buenas prácticas de arquitectura de software, agilidad empresarial, calidad de código e integración continua en proyectos de transformación digital.
+                Desarrollo de arquitecturas serverless orientadas a eventos sobre <strong>AWS</strong> (<strong>TypeScript / Node.js, Python AWS Lambda</strong>) con orquestación de pipelines multimodelo de IA generativa en <strong>AWS Bedrock</strong> (SQS, DynamoDB, S3, Prompt Engineering y evaluación E2E automatizada con <em>LLM-as-a-Judge</em> en Karate y Jest), así como microservicios reactivos de alta concurrencia y servicios en <strong>Elixir</strong> con testing contractual en <strong>Hammox</strong>.
               </p>
               <div class="tag-list">
-                <span class="tag-chip">Java</span>
-                <span class="tag-chip">Spring Boot</span>
-                <span class="tag-chip">Frontend &amp; Backend</span>
-                <span class="tag-chip">Arquitectura Ágil</span>
-                <span class="tag-chip">Cloud &amp; DevOps</span>
+                <span class="tag-chip">Java 21 / Spring WebFlux</span>
+                <span class="tag-chip">TypeScript / Node.js</span>
+                <span class="tag-chip">Python (AWS Lambda / FastAPI)</span>
+                <span class="tag-chip">Elixir &amp; Hammox</span>
+                <span class="tag-chip">AWS Bedrock (GenAI)</span>
+                <span class="tag-chip">SQS / DynamoDB / S3</span>
+                <span class="tag-chip">Karate (LLM-as-a-Judge) &amp; Jest</span>
               </div>
             </div>
           </div>
@@ -285,19 +292,21 @@
             </div>
             <div class="hv-body">
               <div class="hv-header-row">
-                <h3 class="hv-role">Desarrollador de Software</h3>
+                <h3 class="hv-role">Desarrollador de Software Backend &amp; Full Stack</h3>
                 <span class="tag-chip">EXPERIENCIA ANTERIOR</span>
               </div>
               <div class="hv-company">GTC</div>
               <p class="hv-desc">
-                Diseño, construcción y mantenimiento evolutivo de aplicaciones empresariales Full Stack, integración de servicios REST, optimización de consultas en bases de datos relacionales y entrega continua bajo metodologías ágiles.
+                Desarrollo backend especializado en <strong>Java 21</strong> con programación reactiva (<strong>Spring WebFlux / Project Reactor</strong>) y <strong>Arquitectura Limpia/Hexagonal (DDD)</strong> para ecosistemas de microservicios transaccionales (Pagos, Novedades, Liquidación). Implementación de persistencia no bloqueante con <strong>R2DBC y PostgreSQL</strong>, funciones serverless en <strong>Python</strong>, control de concurrencia y pruebas reactivas (<strong>StepVerifier, JUnit, Mockito</strong>) con CI/CD en Azure DevOps y GitLab.
               </p>
               <div class="tag-list">
-                <span class="tag-chip">Java</span>
-                <span class="tag-chip">Spring Boot</span>
-                <span class="tag-chip">Angular / React</span>
-                <span class="tag-chip">SQL</span>
-                <span class="tag-chip">Git / Docker</span>
+                <span class="tag-chip">Java 21</span>
+                <span class="tag-chip">Spring WebFlux &amp; R2DBC</span>
+                <span class="tag-chip">PostgreSQL</span>
+                <span class="tag-chip">Clean / Hexagonal Architecture</span>
+                <span class="tag-chip">DDD &amp; TDD (StepVerifier / Mockito)</span>
+                <span class="tag-chip">Python (Lambda / FastAPI)</span>
+                <span class="tag-chip">Azure DevOps / GitLab</span>
               </div>
             </div>
           </div>
@@ -320,7 +329,7 @@
               </div>
               <div class="hv-company">Corporación Unificada Nacional de Educación Superior (CUN)</div>
               <p class="hv-desc">
-                Formación profesional universitaria en ingeniería de software, arquitectura de sistemas, estructuras de datos, redes, seguridad informática y gestión de proyectos tecnológicos.
+                Formación profesional universitaria en ingeniería de software, arquitecturas distribuidas, estructuras de datos, redes, seguridad informática y gerencia de proyectos tecnológicos.
               </p>
               <div class="tag-list">
                 <span class="tag-chip">Ingeniería de Software</span>
@@ -339,59 +348,63 @@
       <div class="container-dev">
         <div class="section-header-dev">
           <div>
-            <div class="section-kicker">Stack &amp; Herramientas</div>
-            <h2 class="section-title">Tecnologías Principales</h2>
+            <div class="section-kicker">Stack &amp; Plataformas</div>
+            <h2 class="section-title">Ecosistema Tecnológico</h2>
           </div>
         </div>
 
         <div class="skills-grid">
           <div class="skill-box">
-            <div class="skill-box-title"><i class="bi bi-hdd-network"></i> Backend &amp; Arquitectura</div>
+            <div class="skill-box-title"><i class="bi bi-hdd-network"></i> Backend, Reactivo &amp; Lenguajes</div>
             <div class="tag-list">
-              <span class="tag-chip tag-chip-solid">Java</span>
-              <span class="tag-chip tag-chip-solid">Spring Boot</span>
-              <span class="tag-chip">Node.js</span>
-              <span class="tag-chip">REST APIs</span>
-              <span class="tag-chip">Python</span>
-              <span class="tag-chip">Microservicios</span>
+              <span class="tag-chip tag-chip-solid">Java 21</span>
+              <span class="tag-chip tag-chip-solid">Spring Boot &amp; WebFlux</span>
+              <span class="tag-chip tag-chip-solid">R2DBC (Project Reactor)</span>
+              <span class="tag-chip tag-chip-solid">Python (FastAPI / Lambdas)</span>
+              <span class="tag-chip tag-chip-solid">Elixir</span>
+              <span class="tag-chip">TypeScript / Node.js</span>
+              <span class="tag-chip">Clean &amp; Hexagonal Arch</span>
+              <span class="tag-chip">DDD</span>
             </div>
           </div>
 
           <div class="skill-box">
-            <div class="skill-box-title"><i class="bi bi-window-stack"></i> Frontend &amp; UI</div>
+            <div class="skill-box-title"><i class="bi bi-cloud-check"></i> Cloud, Serverless &amp; GenAI</div>
             <div class="tag-list">
-              <span class="tag-chip tag-chip-solid">Angular</span>
-              <span class="tag-chip tag-chip-solid">ReactJS</span>
-              <span class="tag-chip">JavaScript (ES6+)</span>
-              <span class="tag-chip">HTML5</span>
-              <span class="tag-chip">CSS3 Avanzado</span>
-              <span class="tag-chip">Java Swing</span>
+              <span class="tag-chip tag-chip-solid">AWS Lambda</span>
+              <span class="tag-chip tag-chip-solid">AWS Bedrock (LLMs)</span>
+              <span class="tag-chip">Amazon SQS / S3</span>
+              <span class="tag-chip">DynamoDB</span>
+              <span class="tag-chip">Prompt Engineering</span>
+              <span class="tag-chip">Azure DevOps</span>
+              <span class="tag-chip">GitLab / GitHub Actions</span>
+              <span class="tag-chip">Docker / Linux / OCI</span>
             </div>
           </div>
 
           <div class="skill-box">
-            <div class="skill-box-title"><i class="bi bi-smartwatch"></i> Mobile, Wear OS &amp; Gaming</div>
+            <div class="skill-box-title"><i class="bi bi-shield-check"></i> Testing, QA &amp; Persistencia</div>
             <div class="tag-list">
-              <span class="tag-chip tag-chip-solid">Android SDK</span>
-              <span class="tag-chip tag-chip-solid">Wear OS 3 / 5+</span>
+              <span class="tag-chip tag-chip-solid">TDD</span>
+              <span class="tag-chip">JUnit &amp; Mockito</span>
+              <span class="tag-chip">StepVerifier (Reactor)</span>
+              <span class="tag-chip">Hammox &amp; ExUnit (Elixir)</span>
+              <span class="tag-chip">Jest</span>
+              <span class="tag-chip">Karate E2E (LLM-as-a-Judge)</span>
+              <span class="tag-chip">PostgreSQL / MySQL</span>
+              <span class="tag-chip">MongoDB / SQLite</span>
+            </div>
+          </div>
+
+          <div class="skill-box">
+            <div class="skill-box-title"><i class="bi bi-smartwatch"></i> Frontend, Mobile &amp; Wear OS</div>
+            <div class="tag-list">
+              <span class="tag-chip tag-chip-solid">Angular &amp; ReactJS</span>
+              <span class="tag-chip tag-chip-solid">Wear OS 3 / 5+ &amp; Android</span>
               <span class="tag-chip">Watch Face Format v2</span>
               <span class="tag-chip">libsignal E2EE</span>
-              <span class="tag-chip">Android Keystore</span>
+              <span class="tag-chip">JavaScript (ES6+) / HTML5 / CSS3</span>
               <span class="tag-chip">Google Play Console</span>
-            </div>
-          </div>
-
-          <div class="skill-box">
-            <div class="skill-box-title"><i class="bi bi-database-check"></i> Datos, Cloud &amp; DevOps</div>
-            <div class="tag-list">
-              <span class="tag-chip">MySQL</span>
-              <span class="tag-chip">MariaDB</span>
-              <span class="tag-chip">MongoDB</span>
-              <span class="tag-chip">SQLite</span>
-              <span class="tag-chip">DerbyDB</span>
-              <span class="tag-chip">Docker</span>
-              <span class="tag-chip">Git / GitHub</span>
-              <span class="tag-chip">Linux / OCI</span>
             </div>
           </div>
         </div>
